@@ -1,0 +1,77 @@
+[19-Jul-2025 04:56:14 Asia/Jakarta] PHP Warning:  Undefined array key "stock" in C:\laragon\www\punya ira website\edit_product.php on line 45
+[19-Jul-2025 04:58:51 Asia/Jakarta] PHP Warning:  Undefined array key "stock" in C:\laragon\www\punya ira website\update_product.php on line 14
+[19-Jul-2025 04:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'stock' in 'field list' in C:\laragon\www\punya ira website\update_product.php:24
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(24): mysqli->prepare('UPDATE products...')
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 24
+[19-Jul-2025 04:59:14 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'stock' in 'field list' in C:\laragon\www\punya ira website\update_product.php:24
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(24): mysqli->prepare('UPDATE products...')
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 24
+[19-Jul-2025 04:59:45 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'stock' in 'field list' in C:\laragon\www\punya ira website\update_product.php:24
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(24): mysqli->prepare('UPDATE products...')
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 24
+[19-Jul-2025 05:00:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:00:47 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:01:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:01:58 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:03:24 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:05:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\punya ira website\update_product.php:27
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 27
+[19-Jul-2025 05:09:38 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = ?' at line 6 in C:\laragon\www\punya ira website\update_product.php:23
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(23): mysqli->prepare('UPDATE products...')
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:09:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = ?' at line 6 in C:\laragon\www\punya ira website\update_product.php:23
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(23): mysqli->prepare('UPDATE products...')
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:10:49 Asia/Jakarta] PHP Warning:  Undefined variable $stmt in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:10:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\laragon\www\punya ira website\update_product.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:10:57 Asia/Jakarta] PHP Warning:  Undefined variable $stmt in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:10:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\laragon\www\punya ira website\update_product.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 23
+[19-Jul-2025 05:40:46 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'image_url' at row 1 in C:\laragon\www\punya ira website\update_product.php:51
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(51): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 51
+[19-Jul-2025 05:41:54 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'image_url' at row 1 in C:\laragon\www\punya ira website\update_product.php:51
+Stack trace:
+#0 C:\laragon\www\punya ira website\update_product.php(51): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\punya ira website\update_product.php on line 51
